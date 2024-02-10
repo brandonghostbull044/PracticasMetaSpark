@@ -1,0 +1,28 @@
+{
+  "modelName": "texture",
+  "name": "5_neuer_zollhof_preview",
+  "identifier": "texture:15060-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "15061-b30cce93-a7a0-425d-b207-3e44ffca9309.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "equirectangular",
+  "excludeDuringExport": true,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:15063-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:15065-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:15067-b30cce93-a7a0-425d-b207-3e44ffca9309"
+  ],
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/640395489829691",
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "clamp",
+  "width": 512
+}

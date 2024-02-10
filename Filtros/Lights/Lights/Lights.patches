@@ -1,0 +1,291 @@
+{
+  "id": "12569b30cce93a7a0425db2073e44ffca9309",
+  "revision": "12570b30cce93a7a0425db2073e44ffca9309",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:14341-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:14335-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:14339-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:14343-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:14339-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:14337-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:17998-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:17992-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:17996-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:18000-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:17996-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:17994-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:18008-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:18002-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "template_patch_model:18006-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:18010-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPatch": "template_patch_model:18006-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "fromPort": "1001",
+        "toPatch": "consumer_patch_model:18004-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "toPort": "101"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:12659-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "subpatches": [
+          "consumer_patch_model:14337-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "consumer_patch_model:17994-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "consumer_patch_model:18004-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:14335-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:14339-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:17992-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:17996-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:18002-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "template_patch_model:18006-b30cce93-a7a0-425d-b207-3e44ffca9309"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Icosahedron",
+        "identifier": "consumer_patch_model:14337-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "object": "master3_d_object_model:13651-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "objectProperty": "rotation",
+        "position": [
+          895.9499999999997,
+          77.64999999999998
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Icosahedron0",
+        "identifier": "consumer_patch_model:17994-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "object": "master3_d_object_model:15980-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "objectProperty": "rotation",
+        "position": [
+          884,
+          260
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "consumer_patch_model",
+        "name": "Icosahedron1",
+        "identifier": "consumer_patch_model:18004-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "object": "master3_d_object_model:16213-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "objectProperty": "rotation",
+        "position": [
+          884,
+          452
+        ],
+        "values": [
+          {
+            "port": "101",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                0,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "local_transform"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:14335-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          275.9499999999997,
+          77.64999999999998
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:14339-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          494.9499999999997,
+          77.64999999999998
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                359,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:17992-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          260,
+          260
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:17996-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          500,
+          260
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                359,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Loop Animation",
+        "identifier": "template_patch_model:18002-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          260,
+          452
+        ],
+        "templateId": "builtin.group.loopAnimation",
+        "values": [
+          {
+            "port": "102",
+            "value": {
+              "t": "double",
+              "v": 5
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Transition",
+        "identifier": "template_patch_model:18006-b30cce93-a7a0-425d-b207-3e44ffca9309",
+        "position": [
+          476,
+          452
+        ],
+        "templateId": "builtin.group.transition",
+        "values": [
+          {
+            "port": "103",
+            "value": {
+              "t": "vec3",
+              "v": [
+                0,
+                359,
+                0
+              ]
+            }
+          }
+        ],
+        "variantInfo": "vec3"
+      }
+    ]
+  }
+}

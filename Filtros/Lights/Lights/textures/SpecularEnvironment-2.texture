@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "5_neuer_zollhof_specular",
+  "identifier": "texture:15069-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "15070-b30cce93-a7a0-425d-b207-3e44ffca9309.png",
+  "colorEncoding": "rgbd",
+  "compressionQuality": "high",
+  "coordMapping": "equirectangular",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:15072-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:15074-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:15076-b30cce93-a7a0-425d-b207-3e44ffca9309"
+  ],
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/640395489829691",
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "a628691cf3318cb8c3a5105c333af5c3",
+      "colorCount": 35669,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 13.453559981530386,
+      "pixelsHigh": 256,
+      "pixelsWide": 512
+    }
+  ]
+}

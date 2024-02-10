@@ -1,0 +1,40 @@
+{
+  "modelName": "texture",
+  "name": "8_sunny_vondelpark_specular",
+  "identifier": "texture:24061-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "24062-b30cce93-a7a0-425d-b207-3e44ffca9309.png",
+  "colorEncoding": "rgbd",
+  "compressionQuality": "high",
+  "coordMapping": "equirectangular",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:24064-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:24066-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:24068-b30cce93-a7a0-425d-b207-3e44ffca9309"
+  ],
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/987343471653033",
+  "filter": "trilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "clamp",
+  "width": 512,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "assetDataHash": "ad6d66ac1dfdfc98afd85db8a63b8cb6",
+      "colorCount": 47627,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 13.857016631501212,
+      "pixelsHigh": 256,
+      "pixelsWide": 512
+    }
+  ]
+}

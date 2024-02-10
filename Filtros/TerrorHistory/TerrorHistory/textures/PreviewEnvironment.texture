@@ -1,0 +1,28 @@
+{
+  "modelName": "texture",
+  "name": "8_sunny_vondelpark_preview",
+  "identifier": "texture:24052-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "alphaPremultiplicationMode": "none",
+  "assetLocator": "24053-b30cce93-a7a0-425d-b207-3e44ffca9309.png",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "equirectangular",
+  "excludeDuringExport": true,
+  "excludeFromPackage": false,
+  "exportConfigurations": [
+    "textureExportConfig:24055-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:24057-b30cce93-a7a0-425d-b207-3e44ffca9309",
+    "textureExportConfig:24059-b30cce93-a7a0-425d-b207-3e44ffca9309"
+  ],
+  "externalSourceLocator": "sparkarstudio://arlibrary/facebook/texture/987343471653033",
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 256,
+  "importIssues": {},
+  "isExternalAsset": false,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "repeat",
+  "vWrapMode": "clamp",
+  "width": 512
+}

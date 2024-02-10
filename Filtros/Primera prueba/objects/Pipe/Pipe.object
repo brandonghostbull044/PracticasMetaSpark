@@ -1,0 +1,82 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Pipe",
+  "identifier": "master3_d_object_model:12703-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+  "sourceIdentifier": "asset_collection_model:12707-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.050000015646219254,
+  "globalScaleFactor": 1,
+  "height": 0.04999999701976776,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.05000000447034836,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Pipe",
+      "identifier": "mesh:12693-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Pipe",
+      "numberOfFaces": 160,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:12697-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:12695-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:12700-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:12691-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+              "surfaceGroupIdentifier": "12701-11fa18d5-d043-4800-b5e5-1ae57e5370d0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

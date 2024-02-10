@@ -1,0 +1,137 @@
+{
+  "id": "5846811fa18d5d0434800b5e51ae57e5370d0",
+  "revision": "6315111fa18d5d0434800b5e51ae57e5370d0",
+  "version": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "creatorIdentifier": "com.facebook.arstudio.skylight",
+  "creatorPlatform": "windows",
+  "creatorFileVersion": {
+    "dev": 0,
+    "patch": 0,
+    "prod": 176
+  },
+  "visual_programming": {
+    "connections": [
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:63136-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPatch": "template_patch_model:62806-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:63134-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:63142-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPatch": "template_patch_model:63134-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPort": "100",
+        "toPatch": "template_patch_model:63140-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "toPort": "1"
+      },
+      {
+        "modelName": "patch_connection_model",
+        "identifier": "patch_connection_model:63150-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPatch": "template_patch_model:63140-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "fromPort": "100",
+        "toPatch": "consumer_patch_model:62966-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "toPort": "1"
+      }
+    ],
+    "graphs": [
+      {
+        "modelName": "patch_graph",
+        "identifier": "patch_graph:58558-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "subpatches": [
+          "consumer_patch_model:62966-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+          "template_patch_model:62806-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+          "template_patch_model:63134-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+          "template_patch_model:63140-11fa18d5-d043-4800-b5e5-1ae57e5370d0"
+        ]
+      }
+    ],
+    "patches": [
+      {
+        "modelName": "consumer_patch_model",
+        "name": "material0",
+        "identifier": "consumer_patch_model:62966-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "object": "colorPaintMaterial:62648-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "objectProperty": "diffuse_texture_slot",
+        "position": [
+          836,
+          92
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Screen Tap",
+        "identifier": "template_patch_model:62806-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "position": [
+          164,
+          68
+        ],
+        "templateId": "builtin.tapGesture",
+        "values": [
+          {
+            "port": "1",
+            "value": {
+              "t": "bool",
+              "v": true
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Counter",
+        "identifier": "template_patch_model:63134-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "position": [
+          308,
+          44
+        ],
+        "templateId": "builtin.counter",
+        "values": [
+          {
+            "port": "5",
+            "value": {
+              "t": "int",
+              "v": 2
+            }
+          }
+        ]
+      },
+      {
+        "modelName": "template_patch_model",
+        "name": "Option Picker",
+        "identifier": "template_patch_model:63140-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+        "position": [
+          548,
+          44
+        ],
+        "templateId": "builtin.variadicOptionPicker",
+        "values": [
+          {
+            "port": "2",
+            "value": {
+              "t": "string",
+              "v": "texture:61073-11fa18d5-d043-4800-b5e5-1ae57e5370d0"
+            }
+          },
+          {
+            "port": "3",
+            "value": {
+              "t": "string",
+              "v": "texture:61383-11fa18d5-d043-4800-b5e5-1ae57e5370d0"
+            }
+          }
+        ],
+        "variadicInfo": {
+          "input": 5
+        },
+        "variantInfo": "texture"
+      }
+    ]
+  }
+}

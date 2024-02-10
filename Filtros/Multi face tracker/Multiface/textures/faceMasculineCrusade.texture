@@ -1,0 +1,36 @@
+{
+  "modelName": "texture",
+  "name": "faceMasculineCrusade",
+  "identifier": "texture:531-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "alphaPremultiplicationMode": "should_premultiply",
+  "assetDataHash": "a6517b902a22244207a2db45fc7e52b7",
+  "assetLocator": "textures/faceMasculineCrusade.PNG",
+  "colorEncoding": "linear",
+  "compressionQuality": "high",
+  "coordMapping": "none",
+  "excludeDuringExport": false,
+  "excludeFromPackage": false,
+  "filter": "bilinear",
+  "hasOfflineMipmaps": false,
+  "height": 1024,
+  "importIssues": {},
+  "isExternalAsset": true,
+  "smartTextureTargetSizeLimit": "largest",
+  "targetSize": "largest",
+  "uWrapMode": "clamp",
+  "vWrapMode": "clamp",
+  "width": 1024,
+  "children": [
+    {
+      "modelName": "data_texture_metadata_model",
+      "name": "data_texture_metadata_model0",
+      "assetDataHash": "a6517b902a22244207a2db45fc7e52b7",
+      "colorCount": 166512,
+      "detectedAlphaChannel": "eight_bit_full_range",
+      "detectedOriginalFormat": "png",
+      "entropyOfDistribution": 9.555073313753795,
+      "pixelsHigh": 1024,
+      "pixelsWide": 1024
+    }
+  ]
+}

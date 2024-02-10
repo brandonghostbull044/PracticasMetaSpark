@@ -1,0 +1,82 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Diamond",
+  "identifier": "master3_d_object_model:11755-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+  "sourceIdentifier": "asset_collection_model:11759-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.049789369106292725,
+  "globalScaleFactor": 1,
+  "height": 0.034808069467544556,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.049789369106292725,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Diamond",
+      "identifier": "mesh:11745-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Diamond",
+      "numberOfFaces": 48,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:11749-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:11747-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:11752-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:11743-11fa18d5-d043-4800-b5e5-1ae57e5370d0",
+              "surfaceGroupIdentifier": "11753-11fa18d5-d043-4800-b5e5-1ae57e5370d0"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

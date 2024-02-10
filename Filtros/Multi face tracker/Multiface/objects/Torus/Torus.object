@@ -1,0 +1,82 @@
+{
+  "modelName": "master3_d_object_model",
+  "name": "Torus",
+  "identifier": "master3_d_object_model:2843-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "sourceIdentifier": "asset_collection_model:2847-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "depth": 0.04927827790379524,
+  "globalScaleFactor": 1,
+  "height": 0.01570819318294525,
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "width": 0.0490083247423172,
+  "children": [
+    {
+      "modelName": "mesh",
+      "name": "Torus",
+      "identifier": "mesh:2833-b30cce93-a7a0-425d-b207-3e44ffca9309",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "castShadow": false,
+      "hidden": false,
+      "nodeName": "Torus",
+      "numberOfFaces": 300,
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "prefabIdentifier": "gltf:2837-b30cce93-a7a0-425d-b207-3e44ffca9309",
+      "receiveShadow": false,
+      "renderPass": "main_scene",
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "useEmbeddedBlendshapes": false,
+      "children": [
+        {
+          "modelName": "surfaces",
+          "identifier": "surfaces:2835-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "children": [
+            {
+              "modelName": "surface",
+              "name": "surface0",
+              "identifier": "surface:2840-b30cce93-a7a0-425d-b207-3e44ffca9309",
+              "isMaterialIdentifierEnabled": true,
+              "materialIdentifier": "dependent_metallic_roughness_p_b_r_material_model:2831-b30cce93-a7a0-425d-b207-3e44ffca9309",
+              "surfaceGroupIdentifier": "2841-b30cce93-a7a0-425d-b207-3e44ffca9309"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

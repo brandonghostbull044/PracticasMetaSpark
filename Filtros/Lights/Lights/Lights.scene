@@ -1,0 +1,557 @@
+{
+  "modelName": "scene",
+  "identifier": "scene:12585-b30cce93-a7a0-425d-b207-3e44ffca9309",
+  "animationMask": {
+    "position": false,
+    "rotation": false,
+    "scale": false
+  },
+  "cameraVisibility": "back|front",
+  "hidden": false,
+  "outputVisibility": "preview|capture",
+  "physicsEnabled": false,
+  "tags": [],
+  "transform": {
+    "rx": 0,
+    "ry": 0,
+    "rz": 0,
+    "sx": 1,
+    "sy": 1,
+    "sz": 1,
+    "x": 0,
+    "y": 0,
+    "z": 0
+  },
+  "children": [
+    {
+      "modelName": "device",
+      "name": "Device",
+      "identifier": "device:12643-b30cce93-a7a0-425d-b207-3e44ffca9309",
+      "animationMask": {
+        "position": false,
+        "rotation": false,
+        "scale": false
+      },
+      "cameraVisibility": "back|front",
+      "hidden": false,
+      "layerIdentifier": "layer0",
+      "outputVisibility": "preview|capture",
+      "physicsEnabled": false,
+      "tags": [],
+      "transform": {
+        "rx": 0,
+        "ry": 0,
+        "rz": 0,
+        "sx": 1,
+        "sy": 1,
+        "sz": 1,
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "children": [
+        {
+          "modelName": "camera",
+          "name": "Camera",
+          "identifier": "camera:12645-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "projectionType": "perspective",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "updateSource": "gyro",
+          "children": [
+            {
+              "modelName": "focalDistance",
+              "name": "Focal Distance",
+              "identifier": "focalDistance:12647-b30cce93-a7a0-425d-b207-3e44ffca9309",
+              "animationMask": {
+                "position": false,
+                "rotation": false,
+                "scale": false
+              },
+              "cameraVisibility": "back|front",
+              "hidden": false,
+              "layerIdentifier": "layer0",
+              "outputVisibility": "preview|capture",
+              "physicsEnabled": false,
+              "tags": [],
+              "transform": {
+                "rx": 0,
+                "ry": 0,
+                "rz": 0,
+                "sx": 1,
+                "sy": 1,
+                "sz": 1,
+                "x": 0,
+                "y": 0,
+                "z": -0.5361266732215881
+              },
+              "children": [
+                {
+                  "modelName": "ambient_light_source_model",
+                  "name": "ambientLight0",
+                  "identifier": "ambient_light_source_model:12653-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": true,
+                  "intensity": 1,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  }
+                },
+                {
+                  "modelName": "directional_light_source_model",
+                  "name": "directionalLight0",
+                  "identifier": "directional_light_source_model:12655-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": true,
+                  "intensity": 1,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0.05000000074505806,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.7853981633974483,
+                    "ry": 0.08726646259971647,
+                    "rz": 0,
+                    "sx": 1,
+                    "sy": 1,
+                    "sz": 1,
+                    "x": 0.03,
+                    "y": 0.25,
+                    "z": 0.3
+                  }
+                },
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Icosahedron",
+                  "identifier": "master3_d_object_model:13651-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "sourceIdentifier": "master3_d_object_model:13102-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "depth": 0.04231870174407959,
+                  "height": 0.04974924027919769,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 2,
+                    "sy": 2,
+                    "sz": 2,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.05000000074505806
+                  },
+                  "width": 0.04449696093797684,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Icosahedron",
+                      "identifier": "mesh:13660-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "sourceIdentifier": "mesh:13092-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Icosahedron",
+                      "numberOfFaces": 20,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "prefabIdentifier": "gltf:13096-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "transform": {
+                        "rx": 0,
+                        "ry": 0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 0,
+                        "y": 0,
+                        "z": 0
+                      },
+                      "useEmbeddedBlendshapes": false,
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:13663-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "sourceIdentifier": "surfaces:13094-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:13666-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "sourceIdentifier": "surface:13099-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "isMaterialIdentifierEnabled": true,
+                              "materialIdentifier": "defaultMaterial:16369-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "surfaceGroupIdentifier": "13100-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "blend_shapes_model",
+                          "identifier": "blend_shapes_model:13837-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Icosahedron0",
+                  "identifier": "master3_d_object_model:15980-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "sourceIdentifier": "master3_d_object_model:13102-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "depth": 0.04231870174407959,
+                  "height": 0.04974924027919769,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 2,
+                    "sy": 2,
+                    "sz": 2,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0
+                  },
+                  "width": 0.04449696093797684,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Icosahedron",
+                      "identifier": "mesh:15983-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "sourceIdentifier": "mesh:13092-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Icosahedron",
+                      "numberOfFaces": 20,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "prefabIdentifier": "gltf:13096-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "transform": {
+                        "rx": 2.7939677238464355E-9,
+                        "ry": -0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 7.409676872072168E-9,
+                        "y": 0.07006528973579407,
+                        "z": -1.4901161193847656E-7
+                      },
+                      "useEmbeddedBlendshapes": false,
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:15986-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "sourceIdentifier": "surfaces:13094-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:15989-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "sourceIdentifier": "surface:13099-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "isMaterialIdentifierEnabled": true,
+                              "materialIdentifier": "defaultMaterial:17059-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "surfaceGroupIdentifier": "13100-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "blend_shapes_model",
+                          "identifier": "blend_shapes_model:15992-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "3_d_object_instance_model",
+                  "name": "Icosahedron1",
+                  "identifier": "master3_d_object_model:16213-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "sourceIdentifier": "master3_d_object_model:13102-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "cameraVisibility": "back|front",
+                  "depth": 0.04231870174407959,
+                  "height": 0.04974924027919769,
+                  "hidden": false,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 0,
+                    "ry": 0,
+                    "rz": 0,
+                    "sx": 2,
+                    "sy": 2,
+                    "sz": 2,
+                    "x": 0,
+                    "y": 0,
+                    "z": 0.15000000596046448
+                  },
+                  "width": 0.04449696093797684,
+                  "children": [
+                    {
+                      "modelName": "mesh",
+                      "name": "Icosahedron",
+                      "identifier": "mesh:16216-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "sourceIdentifier": "mesh:13092-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "animationMask": {
+                        "position": false,
+                        "rotation": false,
+                        "scale": false
+                      },
+                      "cameraVisibility": "back|front",
+                      "castShadow": false,
+                      "hidden": false,
+                      "layerIdentifier": "layer0",
+                      "nodeName": "Icosahedron",
+                      "numberOfFaces": 20,
+                      "outputVisibility": "preview|capture",
+                      "physicsEnabled": false,
+                      "prefabIdentifier": "gltf:13096-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                      "receiveShadow": false,
+                      "renderPass": "main_scene",
+                      "tags": [],
+                      "transform": {
+                        "rx": 2.7939677238464355E-9,
+                        "ry": -0,
+                        "rz": 0,
+                        "sx": 1,
+                        "sy": 1,
+                        "sz": 1,
+                        "x": 7.409676872072168E-9,
+                        "y": -0.06607183814048767,
+                        "z": 2.9802322387695312E-8
+                      },
+                      "useEmbeddedBlendshapes": false,
+                      "children": [
+                        {
+                          "modelName": "surfaces",
+                          "identifier": "surfaces:16219-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "sourceIdentifier": "surfaces:13094-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                          "children": [
+                            {
+                              "modelName": "surface",
+                              "name": "surface0",
+                              "identifier": "surface:16222-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "sourceIdentifier": "surface:13099-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "isMaterialIdentifierEnabled": true,
+                              "materialIdentifier": "metallicRoughnessPbrMaterial:17525-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                              "surfaceGroupIdentifier": "13100-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                            }
+                          ]
+                        },
+                        {
+                          "modelName": "blend_shapes_model",
+                          "identifier": "blend_shapes_model:16225-b30cce93-a7a0-425d-b207-3e44ffca9309"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "modelName": "point_light_source_model",
+                  "name": "pointLight0",
+                  "identifier": "point_light_source_model:19024-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "attenuationConstant": 1,
+                  "attenuationDistance": 0.25,
+                  "attenuationLinear": 0,
+                  "attenuationQuadratic": 1,
+                  "cameraVisibility": "back|front",
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 1,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "tags": [],
+                  "transform": {
+                    "rx": 1.043081780949251E-7,
+                    "ry": -2.9802322387695312E-8,
+                    "rz": 2.9802322387695312E-8,
+                    "sx": 1,
+                    "sy": 0.9999999403953552,
+                    "sz": 0.9999995827674866,
+                    "x": -0.0024548168294131756,
+                    "y": 0.056667715311050415,
+                    "z": 0.19889837503433228
+                  }
+                },
+                {
+                  "modelName": "spot_light_source_model",
+                  "name": "spotLight0",
+                  "identifier": "spot_light_source_model:19028-b30cce93-a7a0-425d-b207-3e44ffca9309",
+                  "angleInnerDegrees": 54.818180084228516,
+                  "angleOuterDegrees": 62.181819915771484,
+                  "animationMask": {
+                    "position": false,
+                    "rotation": false,
+                    "scale": false
+                  },
+                  "attenuationConstant": 1,
+                  "attenuationDistance": 1,
+                  "attenuationLinear": 0,
+                  "attenuationQuadratic": 1,
+                  "cameraVisibility": "back|front",
+                  "castShadow": false,
+                  "color": "0xffffffff",
+                  "hidden": false,
+                  "intensity": 1,
+                  "layerIdentifier": "layer0",
+                  "outputVisibility": "preview|capture",
+                  "physicsEnabled": false,
+                  "shadowBias": 0.05000000074505806,
+                  "shadowFrustumDepth": 1,
+                  "shadowFrustumSize": 0.5,
+                  "shadowNear": 0.05,
+                  "shadowSoftness": 0,
+                  "shadowStrength": 1,
+                  "shadowTextureSize": 512,
+                  "tags": [],
+                  "transform": {
+                    "rx": -0.6283185307179586,
+                    "ry": -0,
+                    "rz": -3.725290298461914E-8,
+                    "sx": 1,
+                    "sy": 0.9999995827674866,
+                    "sz": 0.9999996423721313,
+                    "x": 0.02549966797232628,
+                    "y": 0.08121847361326218,
+                    "z": 0.5592866539955139
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "modelName": "microphone_model",
+          "name": "Microphone",
+          "identifier": "microphone_model:12649-b30cce93-a7a0-425d-b207-3e44ffca9309",
+          "animationMask": {
+            "position": false,
+            "rotation": false,
+            "scale": false
+          },
+          "cameraVisibility": "back|front",
+          "disabled": false,
+          "hidden": false,
+          "layerIdentifier": "layer0",
+          "outputVisibility": "preview|capture",
+          "physicsEnabled": false,
+          "previewAudioSource": "default",
+          "tags": [],
+          "transform": {
+            "rx": 0,
+            "ry": 0,
+            "rz": 0,
+            "sx": 1,
+            "sy": 1,
+            "sz": 1,
+            "x": 0,
+            "y": 0,
+            "z": 0
+          }
+        }
+      ]
+    }
+  ]
+}
